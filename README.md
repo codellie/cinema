@@ -3,23 +3,23 @@
 
 마이크로서비스응용및활용 과목의 기말고사 대체용으로 마이크로서비스를 직접 구현하고 쿠버네티스에 배포/운영한 결과 리포트입니다.
 
-## 1. 도메인 주제 선정
-# 영화 예매
+# 1. 도메인 주제 선정
+## 영화 예매
 
-## 2. 시나리오 작성
+# 2. 시나리오 작성
 1. 고객이 영화를 선택하여 티켓을 예매한다
 2. 예매를 하면 고객에게 티켓을 전송한다
 3. 예매를 하면 포인트 적립한다
 4. 고객이 영화를 취소하면 티켓과 포인트 반환된다
 
-## 3. 이벤트 스토밍
+# 3. 이벤트 스토밍
 
 ![image](https://github.com/codellie/cinema/assets/126676314/7ff7f7bd-f821-4bea-a665-0307527e7581)
 
 
-## 4. 서비스 구현
+# 4. 서비스 구현
 
-## 5. 이미지 생성 및 푸쉬
+# 5. 이미지 생성 및 푸쉬
 
 ![image](https://github.com/codellie/cinema/assets/126676314/a754df56-ea66-4440-bdcf-8e75cbbd06e6)
 
@@ -43,13 +43,13 @@ docker login
 docker push MY-DOCKER ID/point:v0.1
 ```
 
-## 6. 쿠버네티스 준비
+# 6. 쿠버네티스 준비
 
 ![image](https://github.com/codellie/cinema/assets/126676314/0794dd51-8052-4a95-9e87-e853c48b00d0)
 
 
 
-## 7. 서비스 배포
+# 7. 서비스 배포
 
 ![image](https://github.com/codellie/cinema/assets/126676314/63806b84-a4f6-40b5-baf0-e3f49d48795f)
 
