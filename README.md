@@ -6,11 +6,15 @@
 # 1. 도메인 주제 선정
 ## 영화 예매
 
+
+
 # 2. 시나리오 작성
 1. 고객이 영화를 선택하여 티켓을 예매한다
 2. 예매를 하면 고객에게 티켓을 전송한다
 3. 예매를 하면 포인트 적립한다
 4. 고객이 영화를 취소하면 티켓과 포인트 반환된다
+
+
 
 # 3. 이벤트 스토밍
 
@@ -20,6 +24,7 @@
 
 # 4. 서비스 구현
 분석/설계 단계에서 도출된 이벤트 스토밍 결과에 따라 예매 서비스와 티켓 서비스를 쿠버네티스에 각각 docker 이미지 생성 및 푸시하며 마이크로서비스를 배포하였다. 구현한 각 서비스를 로컬에서 실행하는 방법은 아래와 같다
+
 
 # 5. 이미지 생성 및 푸쉬
 
@@ -45,9 +50,13 @@ docker login
 docker push MY-DOCKER ID/point:v0.1
 ```
 
+
+
+
 # 6. 쿠버네티스 준비
 
 ![image](https://github.com/codellie/cinema/assets/126676314/0794dd51-8052-4a95-9e87-e853c48b00d0)
+
 
 
 
@@ -71,6 +80,10 @@ cd kubernetes
 kubectl apply -f deployment.yaml # 파일 내 image: MY-DOCKER ID/point:v0.1 로 수정
 kubectl apply -f service.yaml
 ```
+
+
+
+
 
 [이전 작업에서 나온 결과]
 모델을 변경하면서 deployment.yaml이 생성되지 않아 쿠버네티스 배포 과정에서 실행할 수 없어 이전 작업 부분을 넣었습니다
