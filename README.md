@@ -9,6 +9,8 @@
 
 ## 3. 이벤트 스토밍
 
+![image](https://github.com/codellie/cinema/assets/126676314/7ff7f7bd-f821-4bea-a665-0307527e7581)
+
 
 
 
