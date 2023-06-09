@@ -14,14 +14,49 @@
 
 # 4. 서비스 구현
 
+# 5. 이미지 생성 및 푸쉬
 
+![image](https://github.com/codellie/cinema/assets/126676314/63806b84-a4f6-40b5-baf0-e3f49d48795f)
 
+```
+cd reserve
+mvn package
+docker image build -t MY-DOCKER ID/reserve:v0.1 .
+docker login                    
+docker push MY-DOCKER ID/reserve:v0.1
 
+cd kubernetes
+kubectl apply -f deployment.yaml # 파일 내 image: MY-DOCKER ID/reserve:v0.1 로 수정
+kubectl apply -f service.yaml
+
+cd ticket
+mvn package
+docker image build -t MY-DOCKER ID/ticket:v0.1 .
+docker login
+docker push MY-DOCKER ID/ticket:v0.1
+
+cd kubernetes
+kubectl apply -f deployment.yaml # 파일 내 image: MY-DOCKER ID/ticket:v0.1 로 수정
+kubectl apply -f service.yaml
+
+cd point
+mvn package
+docker image build -t MY-DOCKER ID/point:v0.1 .
+docker login
+docker push MY-DOCKER ID/point:v0.1
+
+cd kubernetes
+kubectl apply -f deployment.yaml # 파일 내 image: MY-DOCKER ID/point:v0.1 로 수정
+kubectl apply -f service.yaml
+```
 
 
 # 6. 쿠버네티스 준비
 
 ![image](https://github.com/codellie/cinema/assets/126676314/0794dd51-8052-4a95-9e87-e853c48b00d0)
+
+
+
 
 
 
