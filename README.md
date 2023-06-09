@@ -12,9 +12,14 @@
 ![image](https://github.com/codellie/cinema/assets/126676314/7ff7f7bd-f821-4bea-a665-0307527e7581)
 
 
+# 4. 서비스 구현
 
 
 
+
+
+
+# 6. 쿠버네티스 준비
 
 ![image](https://github.com/codellie/cinema/assets/126676314/0794dd51-8052-4a95-9e87-e853c48b00d0)
 
