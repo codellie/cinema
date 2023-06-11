@@ -96,6 +96,14 @@ kubectl apply -f service.yaml
 ![image](https://github.com/codellie/cinema/assets/126676314/abc880a2-e1dc-48b8-a9b9-29ed7e190c48)
 
 
+---
+
+kafka-console-consumer.sh --bootstrap-server my-kafka:9092 --topic cinema --from-beginning
+
+---
+
+![image](https://github.com/codellie/cinema/assets/126676314/ec67ead1-66fb-4060-86a4-32161b647fc8)
+
 
 
 
