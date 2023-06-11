@@ -83,6 +83,13 @@ kubectl apply -f service.yaml
 
 
 
+# Helm
+
+![image](https://github.com/codellie/cinema/assets/126676314/22943cc0-3b8f-4661-a7d3-9a6b7290084d)
+
+
+
+
 
 
 
