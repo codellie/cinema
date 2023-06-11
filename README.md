@@ -83,39 +83,6 @@ kubectl apply -f service.yaml
 
 
 
-# helm
-
-![image](https://github.com/codellie/cinema/assets/126676314/22943cc0-3b8f-4661-a7d3-9a6b7290084d)
-
-
-# kafka
-
-![image](https://github.com/codellie/cinema/assets/126676314/421ba0cc-6ab5-4252-8936-0e61a77ccb76)
-
-
-![image](https://github.com/codellie/cinema/assets/126676314/abc880a2-e1dc-48b8-a9b9-29ed7e190c48)
-
-
-# Kafka 메시지 확인하기
-
-```
-kubectl run my-kafka-client --restart='Never' --image docker.io/bitnami/kafka:2.8.0-debian-10-r0 --command -- sleep infinity
-kubectl exec --tty -i my-kafka-client -- bash
-
-# CONSUMER:
-kafka-console-consumer.sh --bootstrap-server my-kafka:9092 --topic cinema --from-beginning
-```
-
-![image](https://github.com/codellie/cinema/assets/126676314/ec67ead1-66fb-4060-86a4-32161b647fc8)
-
-
-# 마이크로서비스 테스트
-
-![image](https://github.com/codellie/cinema/assets/126676314/3da3af09-0d5e-4f50-827b-d03abd23a27a)
-
-
-
-
 
 
 
