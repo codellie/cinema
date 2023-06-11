@@ -93,6 +93,9 @@ kubectl apply -f service.yaml
 ![image](https://github.com/codellie/cinema/assets/126676314/421ba0cc-6ab5-4252-8936-0e61a77ccb76)
 
 
+![image](https://github.com/codellie/cinema/assets/126676314/abc880a2-e1dc-48b8-a9b9-29ed7e190c48)
+
+
 
 
 
