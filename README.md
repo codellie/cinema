@@ -88,6 +88,12 @@ kubectl apply -f service.yaml
 ![image](https://github.com/codellie/cinema/assets/126676314/22943cc0-3b8f-4661-a7d3-9a6b7290084d)
 
 
+# kafka
+
+![image](https://github.com/codellie/cinema/assets/126676314/421ba0cc-6ab5-4252-8936-0e61a77ccb76)
+
+
+
 
 
 
