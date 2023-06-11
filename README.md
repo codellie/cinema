@@ -80,15 +80,3 @@ cd kubernetes
 kubectl apply -f deployment.yaml # 파일 내 image: MY-DOCKER ID/point:v0.1 로 수정
 kubectl apply -f service.yaml
 ```
-
-
-
-
-
-
-
-
-
-
-```
-
